@@ -1,0 +1,38 @@
+.Eight-section {
+  position: relative;
+  overflow: visible;
+  height: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.Eight-image {
+  width: 90%;
+  height: 10%;
+  border-radius: 10px;
+  transition: transform 0.7s ease-in-out;
+  position: relative;
+  top: -250px;
+  left: 35px;
+  opacity: 0.9;/
+}
+
+.Eight-image:hover {
+  transform: scale(1.05);
+}
+
+@media (min-width: 1024px ) {
+    .Eight-section {
+        position: relative;
+        top: -120px;
+        left: 10px;
+        overflow: visible;
+        height: -10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+      }
+}

@@ -1,0 +1,44 @@
+.Eleven-Section {
+    position: relative;
+    top: 30px;
+    overflow: visible;
+    height: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Eleven-image {
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+    transition: transform 0.7s ease-in-out;
+    position: relative;
+    top: -620px;
+    left: 50px;
+    opacity: 0.9;
+}
+
+@media (min-width: 1024px) {
+    .Eleven-Section {
+        position: relative;
+        top: 30px;
+        overflow: visible;
+        height: -20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .Eleven-image {
+        width: 98%;
+        height: 10%;
+        border-radius: 10px;
+        transition: transform 0.7s ease-in-out;
+        position: relative;
+        top: -750px;
+        left: 50px;
+        opacity: 0.9;
+    }
+}

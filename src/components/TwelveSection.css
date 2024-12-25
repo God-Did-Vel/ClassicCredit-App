@@ -1,0 +1,46 @@
+.Twelve-Section {
+  position: relative;
+  top: 30px;
+  overflow: visible;
+  height: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.Twelve-image {
+  width: 90%;
+  height: 10%;
+  border-radius: 10px;
+  transition: transform 0.7s ease-in-out;
+  position: relative;
+  top: -490px;
+  left: 35px;
+  opacity: 0.9;
+}
+
+@media (min-width: 1024px) {
+  .Twelve-Section {
+    position: relative;
+    top: 30px;
+    overflow: visible;
+    height: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .Twelve-image {
+    width: 98%;
+    height: 10%;
+    border-radius: 10px;
+    transition: transform 0.7s ease-in-out;
+    position: relative;
+    top: -650px;
+    left: 50px;
+    opacity: 0.9;
+  }
+
+}

@@ -1,0 +1,103 @@
+.About-Section {
+  position: relative;
+  top: 330px;
+  overflow: visible;
+  height: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.About-image1 {
+  width: 90%;
+  height: 10%;
+  border-radius: 10px;
+  transition: transform 0.7s ease-in-out;
+  position: relative;
+  top: 50px;
+  left: 35px;
+}
+
+.About-image2 {
+  width: 90%;
+  height: 10%;
+  border-radius: 10px;
+  transition: transform 0.7s ease-in-out;
+  position: relative;
+  top: 50px;
+  left: 35px;
+  z-index: 1;
+}
+
+.About-image3 {
+    width: 90%;
+    height: 10%;
+    border-radius: 10px;
+    transition: transform 0.7s ease-in-out;
+    position: relative;
+    top: -10px;
+    left: 35px;
+}
+
+.About-image4 {
+    width: 90%;
+    height: 10%;
+    border-radius: 10px;
+    transition: transform 0.7s ease-in-out;
+    position: relative;
+    top: -85px;
+    left: 35px;
+  }
+
+  @media (min-width: 1024px) {
+    .About-Section {
+        position: relative;
+        top: 330px;
+        overflow: visible;
+        height: -20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+      .About-image1 {
+        width: 90%;
+        height: 10%;
+        border-radius: 10px;
+        transition: transform 0.7s ease-in-out;
+        position: relative;
+        top: 90px;
+        left: 65px;
+        z-index: 1;
+      }
+      .About-image2 {
+        width: 90%;
+        height: 10%;
+        border-radius: 10px;
+        transition: transform 0.7s ease-in-out;
+        position: relative;
+        top: 50px;
+        left: 65px;
+        z-index: 1;
+      }
+      .About-image3 {
+        width: 90%;
+        height: 10%;
+        border-radius: 10px;
+        transition: transform 0.7s ease-in-out;
+        position: relative;
+        top: -10px;
+        left: 65px;
+        z-index: 1;
+    }
+    .About-image4 {
+        width: 90%;
+        height: 10%;
+        border-radius: 10px;
+        transition: transform 0.7s ease-in-out;
+        position: relative;
+        top: -100px;
+        left: 65px;
+      }
+  }

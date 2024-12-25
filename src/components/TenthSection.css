@@ -1,0 +1,47 @@
+.Tenth-Section {
+  position: relative;
+  top: 30px;
+  overflow: visible;
+  height: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.Tenth-image {
+  width: 60%;
+  height: 10%;
+  border-radius: 20px;
+  transition: transform 0.7s ease-in-out;
+  position: relative;
+  top: -110px;
+  left: 250px;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+@media (min-width: 1024px) {
+  .Tenth-Section {
+  position: relative;
+  top: 30px;
+  overflow: visible;
+  height: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.Tenth-image {
+    width: 55%;
+    height: 10%;
+    border-radius: 20px;
+    transition: transform 0.7s ease-in-out;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    opacity: 0.9;
+    z-index: 1;
+
+}
+}
